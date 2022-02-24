@@ -901,7 +901,14 @@ class PlayState extends MusicBeatState
 		eventPushedMap.clear();
 		eventPushedMap = null;
 
-		// After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters
+		var creditText:FlxText = new FlxText(876, 648, 348);
+		creditText.text = 'PORTED BY\nPOKY.2017';
+		creditText.setFormat(Paths.font("vcr.ttf"), 30, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		creditText.cameras = [camHUD];
+		creditText.scrollFactor.set();
+		add(creditText);
+
+        // After all characters being loaded, it makes then invisible 0.01s later so that the player won't freeze when you change characters
 		// add(strumLine);
 
 		camFollow = new FlxPoint();
