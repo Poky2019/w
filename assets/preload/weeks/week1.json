@@ -1,22 +1,52 @@
 {
-	"songs": [
-		["Bopeebo", "dad", [146, 113, 253]],
-		["Fresh", "dad", [146, 113, 253]],
-		["Dad Battle", "dad", [146, 113, 253]]
-	],
-
-	"weekCharacters": [
-		"dad",
-		"bf",
-		"gf"
-	],
-	"weekBackground": "stage",
-
-	"storyName": "Daddy Dearest",
+	"storyName": "sussy impostor",
+	"hideFreeplay": false,
+	"weekBackground": "",
 	"weekBefore": "tutorial",
-	"weekName": "Week 1",
 	"startUnlocked": true,
-
+	"weekCharacters": [
+		"",
+		"bf",
+		""
+	],
+	"songs": [
+		[
+			"tasks",
+			"red",
+			[
+				255,
+				20,
+				40
+			]
+		],
+		[
+			"skeptical-behaviour",
+			"yellow",
+			[
+				255,
+				255,
+				60
+			]
+		],
+		[
+			"discussion",
+			"orange",
+			[
+				255,
+				100,
+				20
+			]
+		],
+		[
+			"voted",
+			"orange",
+			[
+				255,
+				100,
+				20
+			]
+		]
+	],
 	"hideStoryMode": false,
-	"hideFreeplay": false
+	"weekName": "week1"
 }
